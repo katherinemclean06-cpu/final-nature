@@ -1,1 +1,208 @@
-<h1>Hello World Wide Web!</h1>
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+  
+  <title>Photography Portfolio</title>
+  
+  <style>
+  
+    * { box-sizing: border-box; }
+    
+  body { 
+  margin: 0;
+  font-family: Arial;
+}
+    
+  a { color: white; }
+     
+  .header {
+  padding-bottom: 50px;
+  padding-top: 15px;
+  text-align: center;
+  background: #1B491F;
+}
+  h1 { 
+  text-align: center;
+  color: #1B491F;
+  font-optical-sizing: auto;
+  background-color: white;
+  font-size: 95px;
+  padding: 40px;
+  font-family: "Truculenta", Georgia, serif;
+  }
+  
+  h2 {
+  text-align: center;
+  color: #1B491F;
+  font-optical-sizing: auto;
+  background-color: white;
+  font-size: 75px;
+  padding: 0px;
+  margin: 5px;
+  font-family: "Truculenta", Georgia, serif;
+  }
+  
+  nav {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  width: 900; 
+  margin: 0 auto;
+}
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+  ul li {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  float: left;
+  }
+  
+  ul li a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  nav li a:hover {
+  color: gray;
+  }
+    
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+  
+  .column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+  
+  .img-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 8px;
+}  
+  .img-container img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  transition: transform 0.5s ease;
+}
+  .img-container:hover img {
+  transform: scale(1.1);
+  filter: brightness(80%);
+}
+  @media screen and (max-width: 800px) {
+  .column {
+  flex: 50%;
+  max-width: 50%;
+    }
+  }
+    
+  @media screen and (max-width: 600px) {
+  .column {
+  flex: 100%;
+  max-width: 100%;
+    }
+  }
+  
+  footer {
+  font-size: 30px;
+  text-align: center;
+  background: #1B491F;
+  color: white;
+  margin-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  }
+    </style>
+  </head>
+  
+<body>
+    <div class="header">
+      <h1>Katie McLean Photography</h1>
+      <nav>
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/">SHOOTS</a></li>
+          <li><a href="/">PEOPLE</a></li>
+          <li><a href="/">PLACES</a></li>
+          <li><a href="/">NATURE</a></li>
+          <li><a href="/">ABOUT</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <h2>NATURE:</h2>
+  
+  <div class="row">
+    <div class="column">
+      <div class="img-container"><img src="corn1.JPG" style="width:100%" alt="A corn cob half peeled with little red spots in the middle."></div>
+      <div class="img-container"><img src="thorns.jpeg" style="width:100%" alt="An overhead shot of a thorny vine."></div>
+      <div class="img-container"><img src="beach.jpeg" style="width:100%" alt="Sandy beach on a sunny day."></div>
+      <div class="img-container"><img src="Ducks.JPG" style="width:100%" alt="Two duck swimming up the river on a cloudy day."></div>
+      <div class="img-container"><img src="fall.jpeg" style="width:100%" alt="A maple tree on a sunny tree with the leaves starting to turn orange."></div>
+      <div class="img-container"><img src="turtle.jpeg" style="width:100%" alt="Sea turtle in an aquarium tank."></div>
+      <div class="img-container"><img src="jack.JPG" style="width:100%" alt="A small black and white dog looking up at the camera."></div>
+      <div class="img-container"><img src="corncob2.JPG" style="width:100%" alt="A corn cob half peeled with dead corn stalks in the background."></div>
+      <div class="img-container"><img src="beach1.jpeg" style="width:100%" alt="A sand beach at dusk with a sunset starting on the horizon."></div>
+      <div class="img-container"><img src="berries.jpeg" style="width:100%" alt="A red berry bush with green leaves under the bright sun."></div>
+      <div class="img-container"><img src="cat.jpeg" style="width:100%" alt="Tabby cat with orange eyes leaning on a door window."></div>
+      <div class="img-container"><img src="flower.jpeg" style="width:100%" alt="Blooming pink flowers on a greenish-brown tree."></div>
+      <div class="img-container"><img src="flower6.jpeg" style="width:100%" alt="White bell-shaped flowers with brown spots with fresh dew on the petals."></div>
+  </div>
+  
+    <div class="column">
+    <div class="img-container"><img src="flower1.jpeg" style="width:100%" alt="Some small white and pink flowers blooming"></div>
+    <div class="img-container"><img src="flower7.jpeg" style="width:100%" alt="Dark pink and purple flowers blooming with fresh rain drops on their leaves."></div>
+    <div class="img-container"><img src="sunflower2.JPG" style="width:100%" alt="Two dead sunflowers bent over each other on a cloudy fall day."></div>
+    <div class="img-container"><img src="ice.jpeg" style="width:100%" alt="Light shining through the ice-coated slim branches of a weeping willow tree."></div>
+    <div class="img-container"><img src="lavender2.jpeg" style="width:100%" alt="Bumble bee perches on a sprout of light purple lavender."></div>
+    <div class="img-container"><img src="plant2.png" style="width:100%" alt="A fern leaf in front of a glass building as it starts to get dark out."></div>
+    <div class="img-container"><img src="lavender3.jpeg" style="width:100%" alt="Sprouts of dark purple lavender on a cloudy day."></div>
+    <div class="img-container"><img src="fish.jpeg" style="width:100%" alt="A gray fish in an aquarium tank, nesstled in with some coral."></div>
+    <div class="img-container"><img src="flower5.jpeg" style="width:100%" alt="Purple flowers with bright green stems with dew dops fresh on the petals."></div>
+    <div class="img-container"><img src="flowers9.jpeg" style="width:100%" alt="Reddish-orange flowers with dark green leaves in front of a darkening sunset."></div>
+    <div class="img-container"><img src="lavender.jpeg" style="width:100%" alt="A dark purple Muskoka chair tucked in between rows of blooming lavender on a hill."></div>
+    <div class="img-container"><img src="leaves1.jpeg" style="width:100%" alt="Bright sun shining through dark leaves on a somewhat cloudy day."></div>
+    <div class="img-container"><img src="skatepark.jpeg" style="width:100%" alt="Beautiful orange sunset reflecting in a puddle at a skatepark."></div>
+  </div>
+  
+    <div class="column">
+    <div class="img-container"><img src="lion.jpeg" style="width:100%" alt="A smiling female lion sitting calmly behind glass."></div>
+    <div class="img-container"><img src="jack2.JPG" style="width:100%" alt="A small black and white dog looking to the side with a brown plush toy in his mouth."></div>
+    <div class="img-container"><img src="Corn.JPG" style="width:100%" alt="A corn cob half peeled with dead corn stalks in the background."></div>
+    <div class="img-container"><img src="tiger1.jpeg" style="width:100%" alt="A large tiger mid-step, walking towards the camera with its mouth open."></div>
+    <div class="img-container"><img src="Sunflower.JPG" style="width:100%" alt="The dead head of a sunflower on a cloudy fall day."></div>
+    <div class="img-container"><img src="cornmaze1.JPG" style="width:100%" alt="A wood hut reading 'corn maze relief station' peeks out above the rows of a corn maze."></div>
+    <div class="img-container"><img src="appletree.JPG" style="width:100%" alt="The branch of an apple tree, with two red apples nustled in behind the leaves."></div>
+    <div class="img-container"><img src="roses.jpeg" style="width:100%" alt="Closeup image of a bouquet of light pink roses with dark green leaves."></div>
+    <div class="img-container"><img src="appletree.JPG" style="width:100%" alt="The branch of an apple tree, with two red apples nustled in behind the leaves."></div>
+    <div class="img-container"><img src="sunset1.jpeg" style="width:100%" alt="The sun setting behind a white building next to a line of parked cars."></div>
+    <div class="img-container"><img src="sunlight.jpeg" style="width:100%" alt="Sun shining through the petals of white flowers on a tree."></div>
+    <div class="img-container"><img src="Plant.png" style="width:100%" alt="A green fern against a blue wall."></div>
+    <div class="img-container"><img src="lavender1.jpeg" style="width:100%" alt="A bumble bee perching on sprouts of dark purple lavender."></div>
+    </div>
+</div>
+  
+<footer>
+  <p>Contact:</p>
+  <a href="katherinemclean06@gmail.com">katherinemclean06@gmail.com</a>
+</footer>
+    
+  </body>
+</html>
